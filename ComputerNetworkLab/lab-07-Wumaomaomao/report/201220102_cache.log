@@ -1,0 +1,15 @@
+2022/06/02-03:16:54| [INFO] Caching server started
+Caching server serving on http://0.0.0.0:8204
+path:/doc/success.jpg not exist cache!
+2022/06/02-03:16:56| [Info] Fetched '/doc/success.jpg' from main server '20.188.122.123:8888'
+get response from main server for the path:/doc/success.jpg
+<http.client.HTTPResponse object at 0x7f899eb32d68>
+2022/06/02-03:16:56| [From 10.0.0.24:47138] "GET /doc/success.jpg HTTP/1.1" 200 -
+<http.client.HTTPResponse object at 0x7f899eb32d68>
+get data from main server for the path:/doc/success.jpg
+2022/06/02-03:16:57| [From 10.0.0.24:47140] "GET /doc/success.jpg HTTP/1.1" 200 -
+path:/noneexist not exist cache!
+2022/06/02-03:16:58| [Error] File not found on main server '20.188.122.123:8888'
+2022/06/02-03:16:58| [From 10.0.0.24:47142] "GET /noneexist HTTP/1.1" 404 -
+2022/06/02-03:16:58| [From 10.0.0.24:47142] code 404, message 'File not found'
+2022/06/02-03:16:58| [From 10.0.0.24:47142] "GET /noneexist HTTP/1.1" 404 -

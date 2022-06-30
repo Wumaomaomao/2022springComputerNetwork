@@ -1,0 +1,11 @@
+2022/06/02-03:16:53| [INFO] DNS server started
+WildCard:False,Domain_name:homepage.cncourse.org$,Record_type:CNAME,Record_values:['home.cncourse.org.']
+WildCard:True,Domain_name:[a-zA-Z0-9.]*cncourse.org$,Record_type:CNAME,Record_values:['home.nasa.org.']
+WildCard:True,Domain_name:[a-zA-Z0-9.]*netlab.org$,Record_type:CNAME,Record_values:['home.nasa.org.']
+WildCard:False,Domain_name:home.nasa.org$,Record_type:A,Record_values:['10.0.0.1', '10.0.0.2', '10.0.0.3']
+WildCard:False,Domain_name:lab.nasa.org$,Record_type:A,Record_values:['10.0.0.4', '10.0.0.5']
+WildCard:True,Domain_name:[a-zA-Z0-9.]*localhost.computer$,Record_type:A,Record_values:['10.0.0.23']
+DNS server serving on 0.0.0.0:8204
+2022/06/02-03:16:56| [Info] Receving DNS request from '10.0.0.24' asking for 'stfw.localhost.computer.'
+2022/06/02-03:16:57| [Info] Receving DNS request from '10.0.0.24' asking for 'stfw.localhost.computer.'
+2022/06/02-03:16:58| [Info] Receving DNS request from '10.0.0.24' asking for 'stfw.localhost.computer.'
